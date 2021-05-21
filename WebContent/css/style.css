@@ -7,8 +7,17 @@ header {
 	padding: 20px;
 }
 
+#aside {
+	color: black;
+	backgroud-color: white;
+	padding: 5px;
+	top: 50px;
+	width: 100px;
+	height: 50px;
+}
+
 section {
-	background-color: rosybrown;
+	background-color: white;
 	padding: 20px;
 	color: black;
 	display: flex;
@@ -16,8 +25,9 @@ section {
 }
 
 footer {
-	background-color: black;
-	padding: 20px;
+	color: white;
+	background-color: greenyellow;
+	top: 30px;
 }
 
 section>div {
@@ -40,7 +50,24 @@ li {
 	margin: 0 20px 0 0;
 }
 
+#home_image{
+	width: 1280px;
+	height: 800px;
+	padding: 10px;
+	position: relative;
+}
+
+#open_text {
+  padding: 10px 20px;
+  color: greenyellow;
+  text-align: center;
+  position: absolute;
+  width: 640px;
+  left: 1000px;
+}
+
 #search {
+	background-color: white;
 	border-style: dotted;
 	border-width: 2px;
 	padding: 5px;
@@ -54,8 +81,7 @@ li {
 }
 
 #canvas {
-	margin: 10px;
-	padding: 10px;
-	background: cornsilk;
+	background-color: green;
+	Leftmargin: 0;
 	border: thin inset #aaaaaa;
 }
